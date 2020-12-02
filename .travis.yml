@@ -7,6 +7,9 @@ env:
 matrix:
   fast_finish: true
   include:
+  arch:
+   - amd64
+   - ppc64le
     - env: PGVERSION=9.4
     - env: PGVERSION=9.5
     - env: PGVERSION=9.6
